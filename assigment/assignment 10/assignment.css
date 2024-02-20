@@ -1,0 +1,29 @@
+dt{
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    font-size: large;
+}
+.detail{
+    background-color: black;
+    color: rgb(164, 164, 225);
+}
+div{
+    background-color: rgb(60, 105, 90);
+    height: 100;
+}
+.link:link{
+    color: blanchedalmond;
+}
+.link:visited{
+    color: black;
+}
+.link:hover{
+    background-color: rgb(174, 241, 219);
+    color: rgb(19, 43, 160);
+    font-size: larger;
+}
+.link:active{
+    color: firebrick;
+}
