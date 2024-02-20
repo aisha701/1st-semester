@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flexbox</title>
+    <style>
+    .container{
+        width: 400px;
+        height: 400px;
+        background-color: rgba(43, 49, 59, 0.74);
+        color: white;
+        display: flex; 
+        flex-flow:  wrap;
+        justify-content: center;
+        align-items:baseline;
+        justify-content:space-evenly;
+        align-content: center; 
+    }
+    .items{
+        height: 50px;
+        width: 50px;
+        background-color: rgba(201, 126, 201, 0.521);
+        border: 1px solid black;
+        line-height: 50px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">1</div>
+        <div class="items" >2</div>
+        <div class="items" >3</div>
+        <div class="items" >4</div>
+    </div>
+</body>
+</html>

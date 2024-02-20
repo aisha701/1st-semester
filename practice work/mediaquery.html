@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+      .box{
+        border: 1px outset black;
+        background-color: rgba(95, 158, 160, 0.691);
+        color: rgb(18, 58, 60);
+        font-size: 25px;
+        text-align: center;
+      }
+      .box2{
+        border: 1px outset black;
+        background-color: rgba(206, 121, 217, 0.632);
+        color: rgb(167, 45, 183);
+        font-size: 25px;
+        text-align: center;
+      }
+      @media only screen and (min-width:700px){
+        .box{
+        border: 1px outset black;
+        background-color: rgba(215, 113, 113, 0.673);
+        color: rgb(173, 17, 17);
+        font-size: 25px;
+        text-align: center;
+        display: inline-block;
+        width: 49%;
+      }
+      .box2{
+        border: 1px outset black;
+        background-color: rgba(83, 83, 133, 0.597);
+        color: rgb(14, 14, 146);
+        font-size: 25px;
+        text-align: center;
+        display: inline-block;
+        width: 49%;
+      }
+      }
+      
+
+    </style>
+</head>
+<body>
+    <div class="box"><h1>Responsive Website</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda soluta cumque hic tempora nobis at?</p></div>
+    <div class="box2"><h1>Responsive Website</h1><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda soluta cumque hic tempora nobis at?</p></div>
+</body>
+</html>

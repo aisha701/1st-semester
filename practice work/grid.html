@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>grid</title>
+    <style>
+    .container{
+        background-color: black;
+        height: 200bh;
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr ;
+        /* column-gap:20px ;
+       row-gap: 2px; */
+       gap:4px ;
+       /* justify-content: center ;
+       align-items:center ; */
+    }
+    .items{
+        /* background-color: cornflowerblue;*/
+        height: 100px;
+        /* width: auto;   */
+    }
+    #item1{
+        grid-column: 1/span 3;
+        background-color: darkseagreen;
+    }
+    #item2{
+        grid-column:  span 3;
+        grid-row:2/ span;
+        background-color: darkseagreen;
+    }
+    #item3{
+        grid-column: 1/span 2; 
+        grid-row: span 2;
+        background-color: darkseagreen;
+    }
+    #item4{
+        
+        grid-row: span 1;
+        grid-column: 1/ span2;
+        background-color: darkseagreen;
+    }
+    #item5{
+        grid-column: 3/span 1; 
+       
+        background-color: darkseagreen;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items" id="item1">header</div>
+        <div class="items" id="item2">navbar</div>
+        <div class="items" id="item3">main</div>
+        <div class="items" id="item4">aside</div>
+        <div class="items" id="item5">footer</div>
+    </div>
+</body>
+</html>

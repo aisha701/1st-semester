@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>switch</title>
+    <script>
+    let num1=+prompt("Enter 1st number");
+    let num2=+prompt("Enter 2nd number");
+    let operator=prompt("Enter operator from +,-,*,/");
+
+    switch(operator){
+    case'+':
+          alert(num1+num2);
+          break;
+    case'-':
+          alert(num1-num2);
+          break;
+    case'*':
+          alert(num1*num2);
+          break;
+    case'/':
+          alert(num1/num2);
+          break;
+   default:
+        alert("operator not supported");
+        break;
+    }
+    </script>
+</head>
+<body>
+    <h1>Switch case statement</h1>
+</body>
+</html>

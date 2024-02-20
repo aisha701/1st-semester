@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>animation</title>
+    <style>
+        .circle{
+            background-color: cornflowerblue;
+            border-radius: 100px;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            animation-name: xyz;
+            animation-duration: 4s;
+            animation-timing-function: ease-in;
+            animation-delay: .5s;
+            animation-iteration-count: 20;
+            animation-direction: alternate;
+            animation-play-state: running;
+        }
+        @keyframes xyz{
+            /*from{
+                background-color: darkslategrey;
+                height: 100px;
+                width: 100px;
+            }
+            to{
+                background-color: lightsalmon;
+                height: 50px;
+                width: 50px;
+                top: 0px;
+                left: 500px; }*/
+           
+            0%{
+                background-color: rgb(23, 221, 211);
+                height: 50px;
+                width: 50px;
+                left: 0px;
+                top: 0px;
+            }
+            25%{
+            background-color: rgb(12, 161, 154);
+                height: 50px;
+                width: 50px;
+                left: 500px;
+                top: 0px;
+                }
+             50%{
+               background-color: rgb(7, 107, 102);
+               height: 50px;
+               width: 50px;
+              left: 500px;
+              top: 400px;
+            }
+            75%{
+                background-color: rgb(14, 77, 74);
+                height: 50px;
+                width: 50px;
+                left: 0px;
+                top: 400px;
+            }
+            100%{
+                background-color: rgb(2, 20, 19);
+                height: 50px;
+                width: 50px;
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+</body>
+</html>

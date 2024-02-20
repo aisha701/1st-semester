@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects</title>
+    <script>
+const person={
+fname:"Areesha",
+lname:"Aslam",
+age:"20",
+qualification:"intermediate",
+marks:{
+    maths:"57",
+    eng:"78",
+    urdu:"65"},
+fullname:function(){document .write(this. fname+" "+ this.lname )}
+}
+console.log(person)
+
+for(let a in person){
+ if(a=="marks"){
+        document.write(a+":<br>")
+        for (let b in person.marks){
+            document.write(b+":" + person.marks[b]+"<br>")
+        }
+    }
+   else if(a=="fullname"){document.write()}
+     else{document.write(a+":"+person[a]+"<br>")}
+}
+let convertedstring=JSON.stringify(person)
+        localStorage.setItem("obj",convertedstring)
+
+        let a=JSON.parse( localStorage.getItem("obj"))
+        
+        console.log(a)
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

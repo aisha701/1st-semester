@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>arrays</title>
+    <script>
+//     let flowers=["lily","jasmine","rose","sunflower","daisy","daffodils"];
+//     console.log(flowers[2])
+//     console.log(flowers.length)
+// //  flowers.push("lavender");
+
+// for (let i=0; i<flowers.length; i++)
+// {document.write(flowers[i] ," ")} 
+
+//  flowers.pop();
+let matrix=[
+ ["hashir",335,"karachi"],
+ ["amna",336,"karachi"],
+ ["yusra",337,"karachi"]
+    ]
+    console.log(matrix)
+    console.table(matrix);
+    // document.write(matrix +"<br>");
+    // document.write (matrix[1][2]+" "+matrix[0][1] +"<br>");
+    document.write("<table>")
+    for(let m=0; m<matrix.length; m++){
+        document.write("<tr>")
+        for(let n=0; n<matrix[m].length; n++) 
+        {
+          document.write("<td>"+matrix[m][n] +"</td> ")
+        }
+        document.write("</tr>")
+    }
+    document.write("</table>")
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

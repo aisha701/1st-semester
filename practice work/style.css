@@ -1,0 +1,20 @@
+/*universal selector*/
+*{
+    color: rgba(73, 12, 129, 0.76);
+    background-color: rgb(154, 165, 154);
+}
+
+/*type selector*/
+h1{
+    color: rgba(0, 37, 138, 0.993); background-color: rgb(0, 0, 0); 
+}
+
+/*class selector*/
+.mainheading{
+    color: rgba(10, 2, 2, 0.959) ; background-color: rgba(5, 39, 78, 0.534);
+}
+
+/*id selector*/
+#heading{
+    color: rgb(187, 177, 177); background-color: rgb(27, 56, 4);
+}

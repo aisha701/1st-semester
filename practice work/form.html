@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+    <STYLE>
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+     label{
+         color: rgb(240, 240, 240);
+         text-decoration: underline black;
+     }
+     main{background-color: rgba(133, 231, 218, 0.616);
+     position: relative;
+     padding:10px ;
+     margin:40px;
+     height: 500px;
+     width: 500px;position:relative; 
+      top: 40%;
+      left: 30%;
+     
+     }
+    section{
+        text-align: center;
+        
+}
+    </STYLE>
+</head>
+<body >
+    <main>
+        <section>
+             <label><B> USERNAME: </B></label>  &nbsp;<input type="text" id="username" name="username" placeholder="enter username" required="true"> <br> <br>
+
+            <LABEL><B>EMAIL:</B></LABEL> &nbsp;<input type="email" id="email" name="email" placeholder="enter email" required="true"> <br> <br>
+
+            <LABEL><B>PASSWORD:</B></LABEL>&nbsp;<input type="password" id="pass" name="pass" placeholder="enter a strong password" required="true" minlength="8" maxlength="12" > <br> <br>
+
+            <LABEL><B>DATE OF BIRTH:</B></LABEL>&nbsp;<input type="date" id="dob" name="dob" placeholder="enter DOB" required="true"> <br> <br>
+
+            <LABEL><B>FILE:</B></LABEL>&nbsp;<input type="file" id="file" name="file" placeholder="choose file" required="true"> <br> <br>
+
+            <LABEL><B>LANGUAGE:</B></LABEL><br> 
+            <input type="checkbox" name="language" id="lang">URDU <br>
+            <input type="checkbox" name="language" id="lang"> ENGLISH <br>
+            <input type="checkbox" name="language" id="lang"> HTML <br> <br>
+
+            <LABEL><B>GENDER:</B></LABEL> <br> 
+            <input type="radio" name="gender" id="gender">male <br>
+            <input type="radio" name="gender" id="gender">  female <br> <br>
+            <input type="submit"  value="SUBMIT" id="sumbit" style="background-color: rgb(37, 105, 168);" >
+        </section>
+    </main>
+</body>
+</html>
